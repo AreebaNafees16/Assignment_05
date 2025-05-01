@@ -273,7 +273,7 @@ def account_settings_page():
 
 def main():
     st.set_page_config(page_title="Secure Data System", page_icon="🔐")
-    st.sidebar.image("https://www.svgrepo.com/show/216724/padlock-lock.svg", width=50)
+    st.sidebar.image("https://www.svgrepo.com/show/216724/padlock-lock.svg", width=40)
     menu = ["Home", "Store Data", "Retrieve Data", "Manage Data", "Account Settings"]
     choice = st.sidebar.selectbox("Menu", menu)
     if st.sidebar.button("🚪 Logout"):
